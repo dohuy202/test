@@ -1,0 +1,16 @@
+/* h1 {
+    color: red;
+    font-size: 50px;
+} */
+/* lớp giả - khai báo biến toàn cục */
+:root {
+    --text-color: violet;
+}
+h1 {
+    color: var(--text-color);
+}
+p {
+    /* biến cục  */
+    --my-color: rgb(62, 62, 109);
+    color : var(--my-color);
+}

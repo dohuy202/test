@@ -1,0 +1,89 @@
+<!-- Cú pháp mặc định phải có -->
+<!DOCTYPE html> 
+<html>
+    <!-- Phần đầu -->
+    <head>
+        <title>Tieu de</title> 
+        <!-- thuộc tính cho phép viết tiếng việt -->
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="main.css">
+        <!-- thẻ internal style trong css -->
+        <!-- <style>
+            h1 {
+                color: blue;
+                font-size: 40px;
+            }
+        </style> -->
+    </head>
+    <!-- Phần thân -->
+    <body>
+        <!-- thẻ tạo khối để chia các vùng -->
+        <div>
+            <!--thẻ tiêu đề từ 1 đến 6-->
+            <h1 style="font-family:'Courier New', Courier, monospace;">Đây là tiêu đề lớn 1</h1>  
+            <!-- thẻ đoạn văn -->
+            <p>đây là đoạn nội dung</p>   
+            <!-- thẻ link ảnh  và trường hợp lỗi ảnh thì hiển thị "ảnh mèo"-->
+            <img width="200" src="https://toigingiuvedep.vn/wp-content/uploads/2022/01/anh-meo-cute.jpg" alt="Ảnh mèo">
+            <!-- thẻ xuống dòng -->
+            <br />
+            <!-- thẻ achor gán link -->
+            <a
+             href="https://www.facebook.com/photo/?fbid=1353661218469550&set=a.101763526992665">Tới trang facebook</a>
+            <!-- thẻ tạo list và iteam (ul- hiện dấu chấm, ol-hiện số thứ tự)-->
+            <ol>
+                <li>Thắng</li>
+                <li>Tuấn</li>
+                <li>Duy</li>
+                <li>Nguyên</li>
+                <li>Xuân</li>
+            </ol>
+            <table>
+                <thead>
+                    <!-- table head -->
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </thead>
+
+                <tbody>
+                    <!-- table row, có thể nhiều dòng -->
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                </tbody>
+            </table>
+            <!-- tạo các loại nhập liệu -->
+            <input type="text">
+            <!-- thẻ tạo nút bấm -->
+            <button>Hihi</button>
+            <style>
+                .box1 {
+                    background-color: orange;
+                    width: 30%;
+                    height: 50px;
+                    padding-top: 20px;
+                    /* căn lề */
+                    text-align: center;
+                }
+                #box2 {
+                    background-color: red;
+                    height: 30px;
+                    width: 20%
+                    
+                }
+                p {
+                    border: 3px double darkblue;
+                    text-align: center;
+                    border-right: 20%;
+                }
+            </style>
+        </div>
+        <div class="box box1">Box 1</div>
+        <div id="box2">Box 2</div>
+    </body>
+</html> 
